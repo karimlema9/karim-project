@@ -1,0 +1,17 @@
+
+li {
+    list-style-type: disc;
+}
+
+
+#total{
+    padding-left: 0%;
+}
+
+.dif {
+    list-style-type: none;
+    background: url("./menork.png") no-repeat;
+    background-size: 1vw;
+    padding-left: 1em;
+}
+

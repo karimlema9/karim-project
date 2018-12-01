@@ -1,0 +1,42 @@
+body {
+    background-color: #fddaef;
+    font-family: serif;
+    font-size: 1.2em;
+  }
+  
+  p {
+    line-height: 125%;
+  }
+  
+  h1 {
+    font-family: aria;
+    color: blue;
+  }
+  
+  h3 {
+    font-family: arial;
+    color: #cc22ff;
+  }
+  
+  pre {
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  #codi:first-letter {
+    font-weight: bold;
+    font-size: 300%;
+  }
+  
+  .primer {
+    font-family: Helvetica, serif;
+    font-style: italic;
+    font-size: 1.5em;
+    
+  }
+  
+  .segon{
+    font-family: Helvetica,serif;
+    border-top-style: dotted;
+    border-top-color: red;
+  }
