@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rural Rooms - Reserva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/estilos.css" />
+</head>
+<body>
+    <div id="menu">
+        <ul id="nav">
+            <li class="nav"><a href="index.html"><img src="img/RRLogo.png" alt=""></a></li>
+            <li id="espai" class="nav"><a  href="index.html">Inicio</a></li>
+            <li class="dos" ><a href="precios.html">Precios</a></li>
+            <li class="dos"><a id='active' href="reserva.html">Reserva</a></li>
+        </ul>
+    </div>  
+    <div id="fons3">
+        <p id='titolt'>Reserve su habitación en Rural Rooms</p>
+        
+        <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="genero">Tractamiento Deseado:</label>
+                <select name="genero" id="genero">
+                <option value="sr">Sr</option>
+                <option value="sra">Sra</option>
+                <option value="srta">Srta</option>
+                </select>
+                <ul>
+                    <li><label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" value="" required/></li>     
+                    <li><label for="apellido">Apellido:</label> 
+                        <input type="text" name="apellido" id="apellido" value="" required/></li>   
+                    <li><label for="telefono">Telefono:</label> 
+                        <input type="number" name="telefono" id="telefono" value="" /></li>
+                </ul>
+                <ul>
+                    <li><label for="correo-electronico">Correo electrónico:</label>
+                    <input type="email" name="correo-electronico" id="correo-electronico" value="" required></li>                  
+                    <li><label for="correo-electronico">Confirmar Correo electrónico:</label>
+                    <input type="email" name="correo-electronico" id="correo-electronico2" value="" required></li>
+                </ul>
+                <ul>
+                    <li><label for="contraseña">Contraseña:</label> 
+                        <input type="password" name="contraseña" id="contraseña" value="" /></li>
+                </ul>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Datos de la Reserva</legend>
+                <ul>
+                    <li>Tipo de Habitación
+                    <ul>
+                        <li><label for="acitacioI">Habitación Individual</label>
+                            <input type="radio" name="acitacio" id="acitacioI" required /></li>
+                        <li><label for="acitacioII">Habitación Doble</label>
+                            <input type="radio" name="acitacio" id="acitacioII"/></li>
+                        <li><label for="acitacioIII">Habitación Doble Superior</label>
+                            <input type="radio" name="acitacio" id="acitacioIII"/></li>
+                        <li><label for="acitacioIIII">Habitación Triple</label>
+                            <input type="radio" name="acitacio" id="acitacioIIII"/></li>
+                    </ul></li>
+                </ul>
+                <ul>
+                    <li><label for="people">Numero de Personas:</label> 
+                        <input type="number" name="people" id="people" value="1" min="1" max="3" required/></li>
+                </ul>
+                <ul>
+                    <li>Periodo de la Reserva:
+                    <ul>
+                        <li><label for="fechaA">Fecha Inició</label>
+                        <input type="date" name="fechaA" id="fechaA" required/></li>                                         
+                        <li><label for="fechaZ">Fecha Inició</label>
+                        <input type="date" name="fechaZ" id="fechaZ" required/></li>
+                    </ul></li>
+                </ul>
+                <label for="peticion">Peticiónes Especiales:</label>
+                <textarea name="peticion" id="peticion" cols="50" rows="6" placeholder="No podemos garantizar las peticiones, pero haremos todo lo posible para satisfacerle."></textarea>            
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Datos Adicionales</legend>
+                <ul>
+                    <li>Desea reservar plasa de parking cubierta?
+                    <ul>
+                        <li><label for="reservaSi">Si, cost 8€/noche</label>
+                            <input type="radio" name="reserva" id="reservaSi"/></li>
+                        <li><label for="reservaNo">No, usar parking gratuito</label>
+                            <input type="radio" name="reserva" id="reservaNo"/></li>
+                    </ul></li>
+                </ul>         
+                <ul>
+                    <li>Por favor indique la hora estimada de llegada.
+                    <ul>
+                        <li><label for="hora">Hora estimada:</label>
+                            <input type="time" name="hora" id="hora"/></li>
+                    </ul></li>
+                </ul>   
+                <ul>
+                        <li>Desea recivir el desayuno los dias de instancia?
+                        <ul>
+                            <li><label for="desayunoSi">Si, cost 5€/dia</label>
+                                <input type="radio" name="desayunoSi" id="desayunoSi"/></li>
+                                <li><label for="desayunoNo">No</label>
+                                <input type="radio" name="desayunoNo" id="desayunoNo"/></li>
+                        </ul></li>
+                    </ul>    
+
+            </fieldset>
+        </form>
+    </div> 
+    <footer>
+        <p>Realitzat per Lemaallam, Abdelkarim.</p>
+        <p>Fotografia de la portada <a class='copy' href='https://unsplash.com/'>unsplash</a> <a href="http://creativecommons.org/licenses/by-sa/4.0/"><img class='copy' src="img/creative-commons.png" alt="" ></a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,192 @@
+body{
+    font-family: Arial, serif;
+    margin: auto;
+    background: #30911a;
+    font-size: 1em;
+    overflow-x: hidden; 
+}
+
+#menu {
+    background: #30911a;
+    width: auto; /*espai que ocupara*/ 
+    padding: 0.1em;
+    display: block;
+}
+
+#nav {
+    text-align: justify;
+    list-style: none;
+}
+
+#nav li {
+    display: inline;
+
+}
+
+#espai{
+    margin-left: 10em;
+}
+.dos{
+    margin-left: 2em;
+}
+
+a {
+    padding-right: 3em;
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    padding-right: 3em;
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(80, 253, 0);   
+}
+
+#active {
+    color: orange;
+}
+
+#active:hover{
+    color: rgb(80, 253, 0);   
+}
+
+#fons{
+    background: url('../img/fondoindex.jpg') ;
+    height: 60vh;
+    background-size: 100vw;
+    border-top: solid 0.5em gray;
+    border-bottom: solid 0.5em gray;
+    position: relative;
+}
+
+footer{
+    background: #30911a;
+    width: auto; /*espai que ocupara*/ 
+    padding: 1em;
+    display: block;
+    height: auto;
+}
+
+p a {
+    font-size: 1em;
+    color: white;
+}
+
+p a:hover{
+    padding: 0.2%;
+    font-size: 1em;
+    color: white;   
+}
+
+.copy{
+    padding: 0.2%;
+    border-bottom: dotted 1px white; 
+}
+
+.up{
+    position: relative;
+    color: #30911a;
+    font-size: 4em;
+    left: 1.5em;
+}
+
+.up2{
+    position: relative;
+    color: #30911a;
+    font-size: 1.5em;
+    left: 4.1em;
+}
+
+#fons2{
+    background: rgb(209, 208, 208);
+    border-top: solid 0.5em gray;
+    border-bottom: solid 0.5em gray;
+    overflow-y: visible;
+    padding-bottom: 4vh;
+}
+
+#titolt{
+    font-size: 3.2em;
+    position: relative;
+    text-align: center;
+}
+
+table{
+    position: relative;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    padding: 6px 16px;
+    text-align: center;
+}
+.capicua{
+    background: linear-gradient(#5d6f81,#415466);
+    color: white;
+    font-family: 'comic Sans MS';
+}
+
+.degra{
+    padding: 13px 25px;
+}
+
+.blue{
+    background: #eff3f5;
+}
+
+.raiav{
+    border-bottom: solid 1px #e2e2e2;
+}
+
+
+
+#bordel{
+    border-top-left-radius: 8px;
+}
+
+#border{
+    border-top-right-radius: 8px;
+}
+
+#borderl{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+#fons3{
+    background: rgb(209, 208, 208);
+    border-top: solid 0.5em gray;
+    border-bottom: solid 0.5em gray;
+    padding-bottom: 4vh;
+}
+
+form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset{
+    border-color: #30911a;
+    background: #ecebeb;
+}
+
+input{
+    border-radius: 5px;
+    margin: 1em;
+}
+
+legend{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#fons2 table tr td{
+    color: #949393;
+    border-bottom: solid 1px #e2e2e2;
+}
