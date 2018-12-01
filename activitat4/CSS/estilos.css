@@ -1,0 +1,159 @@
+body{
+    font-family: Arial, serif;
+    margin: auto;
+    background: #30911a;
+    font-size: 1em;
+}
+
+#menu {
+    background: #30911a;
+    width: auto; /*espai que ocupara*/ 
+    padding: 0.1em;
+    display: block;
+}
+
+#nav {
+    text-align: justify;
+    list-style: none;
+}
+
+li {
+    display: inline;
+
+}
+
+#espai{
+    margin-left: 10em;
+}
+.dos{
+    margin-left: 2em;
+}
+
+a {
+    padding-right: 3em;
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    padding-right: 3em;
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(80, 253, 0);   
+}
+
+#active {
+    color: orange;
+}
+
+#active:hover{
+    color: rgb(80, 253, 0);   
+}
+
+#fons{
+    background: url('../img/fondoindex.jpg') ;
+    height: 61vh;
+    background-size: 100vw;
+    border-top: solid 0.5em gray;
+    border-bottom: solid 0.5em gray;
+    position: relative;
+}
+
+footer{
+    background: #30911a;
+    width: auto; /*espai que ocupara*/ 
+    padding: 1em;
+    display: block;
+    height: auto;
+}
+
+p a {
+    font-size: 1em;
+    color: white;
+}
+
+p a:hover{
+    padding: 0.2%;
+    font-size: 1em;
+    color: white;   
+}
+
+.copy{
+    padding: 0.2%;
+    border-bottom: dotted 1px white; 
+}
+
+.up{
+    position: relative;
+    color: #30911a;
+    font-size: 4em;
+    left: 1.5em;
+}
+
+.up2{
+    position: relative;
+    color: #30911a;
+    font-size: 1.5em;
+    left: 4.1em;
+}
+
+#fons2{
+    background: rgb(209, 208, 208);
+    height: 85vh;
+    border-top: solid 0.5em gray;
+    border-bottom: solid 0.5em gray;
+}
+
+#titolt{
+    font-size: 3.2em;
+    position: relative;
+    left: 15vw;
+}
+
+table{
+    position: relative;
+    left: 15vw;
+    background: white;
+}
+
+td, th {
+    padding: 6px 16px;
+    text-align: center;
+}
+.capicua{
+    background: linear-gradient(#5d6f81,#415466);
+    color: white;
+    font-family: 'comic Sans MS';
+}
+
+.degra{
+    padding: 13px 25px;
+}
+
+.blue{
+    background: #eff3f5;
+}
+
+.raiav{
+    border-bottom: solid 1px #e2e2e2;
+}
+
+.gris{
+    color: #949393;
+    border-bottom: solid 1px #e2e2e2;
+}
+
+#bordel{
+    border-top-left-radius: 8px;
+}
+
+#border{
+    border-top-right-radius: 8px;
+}
+
+#borderl{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}

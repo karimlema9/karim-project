@@ -1,0 +1,169 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto; 
+}
+
+#menu {
+    background: rgb(33, 35, 34);
+    width: auto; /*espai que ocupara*/ 
+    padding: 4vh;
+    display: block;
+
+}
+
+#nav {
+    text-align: justify;
+    margin-left: 5vw;
+}
+
+.nav{
+    list-style: none;
+    display: inline;
+}
+
+a {
+    padding-right: 3vw;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#active {
+    color: orange;
+
+}
+
+article {
+    margin: auto;
+    width: 80%; /* espai que ocupara a la pagina*/
+}
+
+#page2 {
+    margin: auto;
+    width: 50%;
+    line-height: 160%;
+}
+
+
+p {
+    font-size: 14px;
+    line-height: 160%;
+}
+
+#titolprincipal {
+    color: rgb(16, 143, 132);
+    font-size: 30px; 
+}
+
+.titol {
+    color: rgb(16, 143, 132);
+    font-size: 20px;
+}
+
+.imatges {
+    width: 40em;
+    height: 30em;
+    display: block; /* seleccionem com si fos un div per pode mourel al centre*/
+    margin: auto;
+}
+#autor {
+    background: rgba(223, 222, 222, 0.582);
+    padding: 1vw;
+    font-size: 14px;
+    color:  rgb(138, 138, 138);
+}
+
+#autors {
+    background: url('../img/icono-autor.png') right no-repeat;
+    background-size: 3vw;
+}
+
+.enllac {
+    padding-right: 0em;
+    text-decoration: none;
+    color: rgb(214, 136, 34);
+    font-size: 14px;
+}
+
+.enllac:hover { /* canviem l'estil per quan pase el ratoli*/
+    border: solid 1px rgb(214, 136, 34);
+    color: black;
+}
+
+q {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.lang {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.line {
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    padding: 3%;
+    margin: 2%;
+}
+
+li {
+    list-style-type: circle;
+    font-size: 14px;
+}
+
+footer {
+    background: rgb(4, 83, 83);
+    width: auto;
+    padding: 6vh;
+    display: block;
+    padding-left: 10vw;
+    
+}
+
+#nom {
+    color: white;
+}
+
+#vtext {
+    color: gray;
+    text-align: center;
+}
+
+.nn{
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.taula1{
+    list-style-type: none;
+    background: url("../img/icono-paises.png") no-repeat;
+    background-size: 1.8vw;
+    padding-left: 1.5em;
+}
+
+.taulatitol {
+    list-style-type: none;
+    background: url("../img/icono-cadenas.png") no-repeat;
+    background-size: 1.2vw;
+    background-position-y: 5%;
+    padding-left: 1.5em;
+}
+
+li{
+    list-style-type: decimal;
+}
+
+.boto{
+    background:rgb(7, 126, 126); 
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 0.5em;
+}
+
+.space{
+    padding-left: 20px;
+    margin: 20px;
+}
+
